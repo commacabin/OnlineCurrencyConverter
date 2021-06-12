@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run abc.py
+web: sh setup.sh && streamlit run MyConverter.py
