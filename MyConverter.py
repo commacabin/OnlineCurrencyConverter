@@ -18,7 +18,7 @@ class Currency_convertor:
 		st.subheader('User Entered LENGTH OF PASSWORD ')
 		st.write('{} {} = {} {}'.format(initial_amount, from_currency, amount, to_currency))
 
-YOUR_ACCESS_KEY='59ce4c29f46d68f904bfbc297c3b6925'
+YOUR_ACCESS_KEY='74d91ced9ab8bd40b34eb5ef4603a540'
 # YOUR_ACCESS_KEY = 'GET YOUR ACCESS KEY FROM fixer.io'
 url = str.__add__('http://data.fixer.io/api/latest?access_key=', YOUR_ACCESS_KEY)
 c = Currency_convertor(url)
